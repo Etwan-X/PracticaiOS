@@ -10,6 +10,9 @@
 		5F30639149FEF546D94C4F68 /* Pods_Practica_iOS_Practica_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A61774D90461658565C5E1 /* Pods_Practica_iOS_Practica_iOSUITests.framework */; };
 		BB8BB899FB11262F072A920F /* Pods_Practica_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D4FCB7CB7EA980A0A88275 /* Pods_Practica_iOS.framework */; };
 		BFBA5AE7AA294663EEC078BE /* Pods_Practica_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD75BB278D454C795A3D66E /* Pods_Practica_iOSTests.framework */; };
+		EE27E7B42AF0BD2300A681CE /* Paises.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE27E7B32AF0BD2300A681CE /* Paises.swift */; };
+		EE27E7B62AF0BDF200A681CE /* Estados.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE27E7B52AF0BDF200A681CE /* Estados.swift */; };
+		EE27E7B82AF0C14900A681CE /* ViewModelPaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE27E7B72AF0C14900A681CE /* ViewModelPaises.swift */; };
 		EE99DE6F2AF099760091FBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE99DE6E2AF099760091FBF9 /* AppDelegate.swift */; };
 		EE99DE712AF099760091FBF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE99DE702AF099760091FBF9 /* SceneDelegate.swift */; };
 		EE99DE732AF099760091FBF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE99DE722AF099760091FBF9 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 		EE99DE932AF099780091FBF9 /* Practica_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE99DE922AF099780091FBF9 /* Practica_iOSUITests.swift */; };
 		EE99DE952AF099780091FBF9 /* Practica_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE99DE942AF099780091FBF9 /* Practica_iOSUITestsLaunchTests.swift */; };
 		EE99DEA32AF0A5550091FBF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE99DEA22AF0A5550091FBF9 /* GoogleService-Info.plist */; };
+		EEA689E22AF5CA4B009B7FC9 /* ViewModelEstados.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA689E12AF5CA4B009B7FC9 /* ViewModelEstados.swift */; };
+		EEA689E52AF5DECD009B7FC9 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA689E32AF5DECD009B7FC9 /* Dialog.swift */; };
+		EEA689E62AF5DECD009B7FC9 /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA689E42AF5DECD009B7FC9 /* Dialog.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		76177777EE5D10AFCDBA6246 /* Pods-Practica iOS-Practica iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica iOS-Practica iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Practica iOS-Practica iOSUITests/Pods-Practica iOS-Practica iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2D4FCB7CB7EA980A0A88275 /* Pods_Practica_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practica_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD75BB278D454C795A3D66E /* Pods_Practica_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practica_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE27E7B32AF0BD2300A681CE /* Paises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paises.swift; sourceTree = "<group>"; };
+		EE27E7B52AF0BDF200A681CE /* Estados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estados.swift; sourceTree = "<group>"; };
+		EE27E7B72AF0C14900A681CE /* ViewModelPaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPaises.swift; sourceTree = "<group>"; };
 		EE99DE6B2AF099760091FBF9 /* Practica iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE99DE6E2AF099760091FBF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE99DE702AF099760091FBF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +73,9 @@
 		EE99DE922AF099780091FBF9 /* Practica_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_iOSUITests.swift; sourceTree = "<group>"; };
 		EE99DE942AF099780091FBF9 /* Practica_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EE99DEA22AF0A5550091FBF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEA689E12AF5CA4B009B7FC9 /* ViewModelEstados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelEstados.swift; sourceTree = "<group>"; };
+		EEA689E32AF5DECD009B7FC9 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		EEA689E42AF5DECD009B7FC9 /* Dialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
 		F433A3D568530C071369AAE1 /* Pods-Practica iOS-Practica iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica iOS-Practica iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Practica iOS-Practica iOSUITests/Pods-Practica iOS-Practica iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +130,44 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EE300C122AF0B6EB000D8C4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE27E7B32AF0BD2300A681CE /* Paises.swift */,
+				EE27E7B52AF0BDF200A681CE /* Estados.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE300C132AF0B713000D8C4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE99DE722AF099760091FBF9 /* ViewController.swift */,
+				EEA689E42AF5DECD009B7FC9 /* Dialog.xib */,
+				EEA689E32AF5DECD009B7FC9 /* Dialog.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE300C142AF0B986000D8C4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE27E7B72AF0C14900A681CE /* ViewModelPaises.swift */,
+				EEA689E12AF5CA4B009B7FC9 /* ViewModelEstados.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE300C162AF0B9FB000D8C4E /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				EE300C122AF0B6EB000D8C4E /* Model */,
+				EE300C132AF0B713000D8C4E /* View */,
+				EE300C142AF0B986000D8C4E /* ViewModel */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
 		EE99DE622AF099760091FBF9 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +197,7 @@
 				EE99DE6E2AF099760091FBF9 /* AppDelegate.swift */,
 				EE99DE702AF099760091FBF9 /* SceneDelegate.swift */,
 				EE99DE742AF099760091FBF9 /* Main.storyboard */,
-				EE99DE722AF099760091FBF9 /* ViewController.swift */,
+				EE300C162AF0B9FB000D8C4E /* Architecture */,
 				EE99DE7A2AF099780091FBF9 /* Assets.xcassets */,
 				EE99DEA22AF0A5550091FBF9 /* GoogleService-Info.plist */,
 				EE99DE7F2AF099780091FBF9 /* Info.plist */,
@@ -185,6 +235,7 @@
 				EE99DE682AF099760091FBF9 /* Frameworks */,
 				EE99DE692AF099760091FBF9 /* Resources */,
 				0E4745D7829890DF270DC41A /* [CP] Embed Pods Frameworks */,
+				EE300C112AF0AEC4000D8C4E /* Firebase Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -287,6 +338,7 @@
 			files = (
 				EE99DE7E2AF099780091FBF9 /* LaunchScreen.storyboard in Resources */,
 				EE99DEA32AF0A5550091FBF9 /* GoogleService-Info.plist in Resources */,
+				EEA689E62AF5DECD009B7FC9 /* Dialog.xib in Resources */,
 				EE99DE7B2AF099780091FBF9 /* Assets.xcassets in Resources */,
 				EE99DE762AF099760091FBF9 /* Main.storyboard in Resources */,
 			);
@@ -409,6 +461,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EE300C112AF0AEC4000D8C4E /* Firebase Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Firebase Crashlytics";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -416,10 +488,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA689E22AF5CA4B009B7FC9 /* ViewModelEstados.swift in Sources */,
 				EE99DE732AF099760091FBF9 /* ViewController.swift in Sources */,
+				EE27E7B62AF0BDF200A681CE /* Estados.swift in Sources */,
+				EEA689E52AF5DECD009B7FC9 /* Dialog.swift in Sources */,
 				EE99DE6F2AF099760091FBF9 /* AppDelegate.swift in Sources */,
 				EE99DE792AF099760091FBF9 /* Practica_iOS.xcdatamodeld in Sources */,
+				EE27E7B42AF0BD2300A681CE /* Paises.swift in Sources */,
 				EE99DE712AF099760091FBF9 /* SceneDelegate.swift in Sources */,
+				EE27E7B82AF0C14900A681CE /* ViewModelPaises.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +589,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -575,7 +652,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -602,6 +679,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = P78ENF28B6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Practica iOS/Info.plist";

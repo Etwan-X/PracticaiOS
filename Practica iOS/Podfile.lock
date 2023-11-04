@@ -44,6 +44,7 @@ PODS:
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
+  - Popover (1.3.0)
   - PromisesObjC (2.3.1)
   - PromisesSwift (2.3.1):
     - PromisesObjC (= 2.3.1)
@@ -51,6 +52,7 @@ PODS:
 DEPENDENCIES:
   - FirebaseCore (from `https://github.com/firebase/firebase-ios-sdk.git`, branch `master`)
   - FirebaseCrashlytics
+  - Popover
 
 SPEC REPOS:
   trunk:
@@ -62,6 +64,7 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleUtilities
     - nanopb
+    - Popover
     - PromisesObjC
     - PromisesSwift
 
@@ -85,9 +88,10 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 54dee9d48d14580407f8f5fbf2f496e92437a2f2
   GoogleUtilities: 202e7a9f5128accd11160fb9c19612de1911aa19
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   PromisesSwift: 28dca69a9c40779916ac2d6985a0192a5cb4a265
 
-PODFILE CHECKSUM: 8d051d60377b67ca602e8d726a27cc594eb97200
+PODFILE CHECKSUM: 43a88fb326b0e27162f0bc070fa7bc4c187bf9e2
 
 COCOAPODS: 1.14.2

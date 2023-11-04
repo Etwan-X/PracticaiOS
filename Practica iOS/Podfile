@@ -8,6 +8,7 @@ target 'Practica iOS' do
   # Pods for Practica iOS
     pod 'FirebaseCrashlytics'
     pod 'FirebaseCore', :git => 'https://github.com/firebase/firebase-ios-sdk.git', :branch => 'master'
+    pod 'Popover'
 
   target 'Practica iOSTests' do
     inherit! :search_paths
@@ -18,4 +19,14 @@ target 'Practica iOS' do
     # Pods for testing
   end
 
+  post_install do |installer|
+      installer.generated_projects.each do |project|
+          project.targets.each do |target|
+              target.build_configurations.each do |config|
+                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+              end
+          end
+      end
+  end
+  
 end
